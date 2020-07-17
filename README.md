@@ -1,7 +1,7 @@
 # Diagnosing CKD with KNN and Logistic Regression Classifiers
 
 ### Summary
-In this project, I use Logistic Regression and K-Nearest Neighbors (KNN) to diagnose CKD. Both were able to classify patients with 100% accuracy.
+In this project, I use Logistic Regression and K-Nearest Neighbors (KNN) to diagnose CKD. Both were able to classify patients with 100% accuracy on unseen test data.  CKD appears to be highly predictable given the right health/blood metrics. 
 
 KNN required class balancing, scaling, and model tuning to perform with 100% accuracy, while Logistic Regression was 100% accurate without tuning (note: still had to stratify the train test split).
 
